@@ -17,7 +17,7 @@ output = []
 parser = argparse.ArgumentParser()
 parser.add_argument('sourcedir', help='Source directory')
 
-parser.add_argument('-p', '--playlist-file', default='/data/playlist/Osiris_random',
+parser.add_argument('-p', '--playlist-file', default='/data/playlist/random',
 		    action='store', dest='plstname',
                     help='Destination file')
 
