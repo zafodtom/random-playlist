@@ -1,7 +1,7 @@
 # random-playlist
 Python script for Volumio to generate random songs playlists.
 
-This script generate Volumio playlist to folder `/data/playlist` from all of your library. 
+This script generate random Volumio playlist to folder `/data/playlist` from all of your library. 
 
 # Version
 
@@ -20,6 +20,7 @@ This script generate Volumio playlist to folder `/data/playlist` from all of you
 -p, --playlist-file - Destination file (Default: /data/playlist/random)
 -n - Number of tracks to generate (Default: 50)
 -d, --debug - Write parsed items
+```
 
 # Install
 
