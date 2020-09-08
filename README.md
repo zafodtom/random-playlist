@@ -13,7 +13,7 @@ This script generate random Volumio playlist to folder `/data/playlist` from all
 
 # Usage
 
-`./python3 random-playlist.py mnt/NAS/[yourNASname]`
+`./python3 random-playlist.py /mnt/NAS/[yourNASname]`
 ```
 -h, --help - Show help 
 -v, --version - Show version 
@@ -32,12 +32,12 @@ Recomended is added to cron.
 
 add line
 
-`50 23 * * * python3 /home/volumio/random-playlist.py mnt/NAS/[yourNASname]`
+`50 23 * * * python3 /home/volumio/random-playlist.py /mnt/NAS/[yourNASname]`
 
 This command start random-playlist.py every day in 23:50
 
 # Example
 
-`./python3 random-playlist.py mnt/NAS/[yourNASname]`
+`./python3 random-playlist.py /mnt/NAS/[yourNASname]`
 
 Usual use of this script. Browse library and add 50 .FLAC or .DSF files to playlist random in folder /data/playlist/. 
